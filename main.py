@@ -40,11 +40,11 @@ def set_background(image_path):
     )
 
 # CALL THIS AT THE TOP
-set_background(r"Wavelength\images\bg.png")
+set_background(r"images/bg.png")
 
 st.title("Wavelength", text_alignment="center")
 
-st.image(r"Wavelenght\images\header.png", use_container_width=False)
+st.image(r"images/header.png", use_container_width=False)
 
 LOW, HIGH = 0, 100
 
